@@ -1,0 +1,102 @@
+body {
+    background-color: #ffffff;
+    color: black;
+}
+
+/* ------------------ NAV --------------- */
+
+nav {
+    background-color: #ffffff;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* -------------------------HEADER------------------- */
+
+.menu {
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 100px;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px
+}
+
+/* --------------------FEATURES------------ */
+
+.features {
+    padding: 50px 12%;
+    font-size: 22px;
+}
+
+.features h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.row {
+     display: flex;
+     width: 100%;
+     align-items: center;
+     flex-wrap: wrap;
+     padding: 50px 0;
+}
+
+.text-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col img {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+/* ------------------FOOTER---------------- */
+
+.footer {
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+}
+
+
+.footer .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .col a {
+    display: flex;
+    text-decoration: none;
+    color: #777;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer .row {
+    align-items: flex;
+    padding: 10px 0;
+}
+
+.features-img {
+    background-color: #ffffff;
+    justify-content: space-between;
+    display: flex;
+}
